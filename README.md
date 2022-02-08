@@ -1,3 +1,7 @@
+# FORK of subdirectory https://github.com/schickling/dockerfiles/tree/master/postgres-backup-s3
+
+Why? Because the version on docker hub is very outdated. Extracting it as single-image-repo allows using convenient github actions build flows and publish the image to ghcr.io
+
 # postgres-backup-s3
 
 Backup PostgresSQL to S3 (supports periodic backups)
